@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/habit_name"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/habit_type"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/type_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/habit_frequency"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/frequency_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+</LinearLayout>

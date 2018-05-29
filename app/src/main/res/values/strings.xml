@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Habit Tracker App</string>
+    <string name="add_data">Add</string>
+    <string name="save">Save</string>
+    <string name="habit_name">Name</string>
+    <string name="habit_type">Type</string>
+    <string name="habit_frequency">Frequency</string>
+</resources>
